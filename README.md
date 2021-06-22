@@ -1,6 +1,6 @@
-# cs61a
+# CS61A
 
-This is a record of my progress in course cs61a taught at Berkeley during spring 2011 by Brian Harvey, based on the book "Structure and Interpretation of Computer Programs". I am using Dr Racket and the SICP package which adds support for the langugage used in the book.
+This is a record of my progress for the course CS61A taught at Berkeley during spring 2011 by Brian Harvey, based on the book "Structure and Interpretation of Computer Programs". I am using Dr Racket and the SICP package which adds support for the langugage used in the book.
 
 Goals:
  - do readings on sicp: http://mitpress.mit.edu/sicp/
