@@ -12,4 +12,4 @@ Goals:
 
 Homework solutions:
  - sicp wiki: http://sicp.org.ua/sicp/
- - Solutions from summer 2011: http://wla.berkeley.edu/~cs61a/su11/solutions/
+ - solutions from summer 2011: http://wla.berkeley.edu/~cs61a/su11/solutions/
