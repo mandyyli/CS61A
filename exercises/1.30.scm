@@ -15,6 +15,6 @@
 (define (inc n) (+ n 1))
 
 (define (sum-cubes a b)
-        (sum cube a inc b))
+  (sum cube a inc b))
 
 (sum-cubes 1 10)
