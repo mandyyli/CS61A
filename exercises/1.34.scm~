@@ -1,0 +1,6 @@
+#lang racket
+(require "../procedures.rkt")
+
+(define (f g) (g 2))
+
+(f square)

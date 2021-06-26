@@ -1,0 +1,11 @@
+#lang racket
+(require "../procedures.rkt")
+
+
+(define (double g)
+  
+
+
+
+
+(((double (double double)) inc) 5)
