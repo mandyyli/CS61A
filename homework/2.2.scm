@@ -1,12 +1,12 @@
 #lang racket
-(require "../procedures.rkt")
+(require (planet dyoo/simply-scheme))
 
 (define (every procedure sent)
-  (define (iter procedure)
-    
+  (define (iter procedure sent)
     (if (empty? sent)
       '()
       (se (procedure (first sent))
-          (procedure (bf sent)) )))
+          (iter procedure (bf sent)) )))
+  (iter procedure sent) )
 
-(every square ’(1 2 3 4))
+(every first '(nowhere man))

@@ -1,15 +1,11 @@
 #lang racket
 (require (planet dyoo/simply-scheme))
+
 (provide (all-defined-out))
 
 (define (square n) (* n n))
 (define (cube n) (* n n n))
 (define (inc n) (+ 1 n))
-
-(define (gcd a b)
-  (if (= b 0)
-      a
-      (gcd b (remainder a b)) ))
 
 (define (prime? n)
   (define (smallest-divisor n) (find-divisor n 2))
@@ -23,8 +19,15 @@
 (define (average x y)
   (/ (+ x y) 2))
 
-
 (define dx 0.00001)
 
 (define (deriv g)
   (lambda (x) (/ (- (g (+ x dx)) (g x)) dx)))
+
+(define (every procedure sent)
+  (define (iter procedure sent)
+    (if (empty? sent)
+      '()
+      (se (procedure (first sent))
+          (iter procedure (bf sent)) )))
+  (iter procedure sent) )
