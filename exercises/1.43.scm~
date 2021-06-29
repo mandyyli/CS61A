@@ -1,4 +1,0 @@
-#lang racket
-
-
-;usage: ((repeated square 2) 5) = 625
